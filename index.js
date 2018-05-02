@@ -27,9 +27,9 @@ kittens.shift();
 
 var kittens=["Milo","Otis","Garfield"];
 function appendKitten(name){
-  return[name,...kittens]
+  return[name,...kittens];
 }
 
 function prependKitten(name){
-  
+  return[...kittens, name];
 }

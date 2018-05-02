@@ -25,3 +25,10 @@ kittens.shift();
   return kittens;
 }
 
+function appendKitten(name){
+  
+}
+
+function prependKitten(name){
+  
+}

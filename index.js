@@ -15,7 +15,7 @@ function destructivelyPrependKitten(Bob){
 
 var kittens=["Milo","Otis","Garfield"]
 function destructivelyRemoveLastKitten(kittens){
-  kittens=kittens.slice(0, kittens.length -1);
+  kittens.pop();
     return (kittens);
 }
 

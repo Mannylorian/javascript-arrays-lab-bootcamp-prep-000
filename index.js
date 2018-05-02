@@ -42,8 +42,8 @@ return kittens;
 }
 
 
-var kittens=["Milo","Otis","Garfield"];
-function removeFirstKitten(kittens){
+
+function removeFirstKitten(){
   kittens=kittens.slice(1);
 return kittens;
 }

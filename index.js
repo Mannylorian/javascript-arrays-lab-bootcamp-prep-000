@@ -20,8 +20,8 @@ function destructivelyRemoveLastKitten(){
 }
 
 var kittens=["Milo","Otis","Garfield"];
-function destructivelyRemoveFirstKitten(kittens){
-kittens=kittens.slice(1);
-  return (kittens);
+function destructivelyRemoveFirstKitten(){
+kittens.shift();
+  return kittens;
 }
 

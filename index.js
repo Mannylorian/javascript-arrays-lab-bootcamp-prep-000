@@ -25,5 +25,5 @@ kittens=kittens.slice(1);
   return (kittens);
 }
 
-var kittens=["Milo","Otis","Garfield"]
-function appendKitten
+//var kittens=["Milo","Otis","Garfield"]
+//function appendKitten

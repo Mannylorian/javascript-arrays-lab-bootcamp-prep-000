@@ -1,13 +1,13 @@
 const app = "I don't do much."
 
 var kittens=["Milo","Otis","Garfield"]
-function destructivelyAppendKitten(kittens, Ralph){
+function destructivelyAppendKitten(Ralph){
   kittens.unshift(Ralph);
     return (kittens);
 }
 
 var kittens=["Milo","Otis","Garfield"]
-function destructivelyPrependKitten(kittens, Bob){
+function destructivelyPrependKitten(Bob){
   kittens.push(Bob);
     return (kittens);
 }

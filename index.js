@@ -15,7 +15,7 @@ function destructivelyPrependKitten(Bob){
 
 var kittens=["Milo","Otis","Garfield"]
 function destructivelyRemoveLastKitten(kittens){
-  kittens.pop(kittens);
+  kittens.pop();
     return (kittens);
 }
 
@@ -25,5 +25,3 @@ kittens=kittens.slice(1);
   return (kittens);
 }
 
-//var kittens=["Milo","Otis","Garfield"]
-//function appendKitten

@@ -14,7 +14,7 @@ function destructivelyPrependKitten(Bob){
 
 var kittens=["Milo","Otis","Garfield"]
 function destructivelyRemoveLastKitten(kittens){
-  kittens.shift(kittens);
+  kittens=
     return (kittens);
 }
 

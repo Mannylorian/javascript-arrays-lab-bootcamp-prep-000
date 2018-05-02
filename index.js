@@ -30,6 +30,7 @@ function appendKitten(name){
   return[name,...kittens];
 }
 
+var kittens=["Milo","Otis","Garfield"];
 function prependKitten(name){
   return[...kittens, name];
 }

@@ -13,4 +13,6 @@ function destructivelyAppendKitten(kittens, Ralph){
 }
 
 var kittens=["Milo","Otis","Garfield"]
-function
+function destructivelyRemoveKitten(kittens){
+  return 
+}

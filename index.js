@@ -16,7 +16,7 @@ function destructivelyPrependKitten(name){
 var kittens=["Milo","Otis","Garfield"];
 function destructivelyRemoveLastKitten(){
   kittens.pop();
-    return (kittens);
+    return kittens;
 }
 
 var kittens=["Milo","Otis","Garfield"];

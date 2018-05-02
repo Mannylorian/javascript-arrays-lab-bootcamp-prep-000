@@ -14,12 +14,12 @@ function destructivelyPrependKitten(Bob){
 
 var kittens=["Milo","Otis","Garfield"]
 function destructivelyRemoveLastKitten(kittens){
-  kittens.pop(kittens);
+  kittens.shift(kittens);
     return (kittens);
 }
 
 var kittens=["Milo","Otis","Garfield"]
 function destructivelyRemoveFirstKitten(kittens){
-kittens.shift(kittens);
+kittens.pop(kittens);
   return (kittens);
 }

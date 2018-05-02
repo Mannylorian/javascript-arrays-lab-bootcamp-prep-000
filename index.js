@@ -8,7 +8,7 @@ function destructivelyAppendKitten(kittens, Ralph){
 
 var kittens=["Milo","Otis","Garfield"]
 function destructivelyPrependKitten(kittens, Bob){
-  kittens.unshift(Bob);
+  kittens.push(Bob);
     return (kittens);
 }
 
